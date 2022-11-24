@@ -38,7 +38,7 @@ body{
 }
 
 .conteudo{
-    margin-bottom: 48px;
+    padding-bottom: 40px;
     border-top: 0.4px solid #f8f8f8;
     background-color: #181820;
 }
@@ -120,6 +120,7 @@ body{
 }
 
 .rodape{
+    
     border-top: 0.4px solid #f8f8f8;
     padding: 32px;
     background-color: #121214;
@@ -128,9 +129,6 @@ body{
 .rodape-img{
     height: 48px;
     /*centralizando a logo footer, pequeno truque para nao usar display flex e .... */
-    display: flex;
+    display: block;
     margin: 0 auto;
 }
-
-/*background: #141414; */
-/*background-color: #181820;*/
