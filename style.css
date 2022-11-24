@@ -119,5 +119,17 @@ body{
     color: #f8f8f8;
 }
 
+.rodape{
 
+    border-top: 0.4px solid #f8f8f8;
+    padding: 32px;
+    background-color: #121214;
+}
+
+.rodape-img{
+    height: 48px;
+    /*centralizando a logo footer, pequeno truque para nao usar display flex e .... */
+    display: block;
+    margin: 0 auto;
+}
 
