@@ -9,8 +9,6 @@
 
 body{
     font-size: 100%;
-    /*background: #141414; */
-    background-color: #181820;
 }
 
 .header{
@@ -21,7 +19,6 @@ body{
     justify-content: space-around;
     padding: 24px;
     background-color: #121214;
-    
 }
 
 .header-logo {
@@ -50,7 +47,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .conteudo-escrito {
@@ -83,8 +80,7 @@ body{
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-    color: #2F2325;
-    
+    color: #2F2325;  
 }
 
 .button:hover{
@@ -96,7 +92,6 @@ body{
     height: 430px;
     width: 550px;
     padding-top: 48px;
-   
 }
 
 .conteudo-secundario{
@@ -115,7 +110,6 @@ body{
     font-size: 24px;
     color: #f8f8f8;
     margin-bottom: 16px;
-   
 }
 
 .conteudo-secundario-paragrafo{
@@ -123,21 +117,20 @@ body{
     font-weight: 300;
     font-size: 18px;
     color: #f8f8f8;
-    
-    
 }
 
 .rodape{
     border-top: 0.4px solid #f8f8f8;
     padding: 32px;
     background-color: #121214;
-    
-    
 }
 
 .rodape-img{
     height: 48px;
     /*centralizando a logo footer, pequeno truque para nao usar display flex e .... */
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
+
+/*background: #141414; */
+/*background-color: #181820;*/
