@@ -19,6 +19,7 @@ body{
     justify-content: space-around;
     padding: 24px;
     background-color: #121214;
+    height: 100px;
 }
 
 .header-logo {
@@ -41,6 +42,7 @@ body{
     padding-bottom: 40px;
     border-top: 0.4px solid #f8f8f8;
     background-color: #181820;
+    height: calc( 100vh - 100px - 100px);
 }
 
 .conteudo-principal{
@@ -89,8 +91,8 @@ body{
 }
 
 .conteudo-img-main{
-    height: 430px;
-    width: 550px;
+    height: 380px;
+    width: 450px;
     padding-top: 48px;
 }
 
@@ -105,7 +107,7 @@ body{
 .conteudo-secundario-titulo{
     font-family: 'Righteous', cursive;
     border-top: 0.4px solid #f8f8f8;
-    padding-top: 48px;
+    padding-top: 70px;
     font-weight: 400;
     font-size: 24px;
     color: #f8f8f8;
@@ -120,7 +122,7 @@ body{
 }
 
 .rodape{
-
+    height: 100px;
     border-top: 0.4px solid #f8f8f8;
     padding: 32px;
     background-color: #121214;
